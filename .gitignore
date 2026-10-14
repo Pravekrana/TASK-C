@@ -1,0 +1,28 @@
+# Default-deny: confidential hiring assessment. No automatic publication.
+*
+!.gitignore
+!prototype/
+!prototype/**
+# Explicit sensitive exclusions (also covered by default deny)
+/Task 3 V2.txt
+/06c9f684-fdb5-47e5-ab38-fc1720b3ab9d-discovery-call-notes.txt
+/submission/
+/appendix/
+/scripts/
+/tmp/
+/README.md
+/SUBMISSION_INSTRUCTIONS.md
+/QUALITY_CHECK.md
+# Generated, environment and credential files within any allowed tree
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.venv/
+**/venv/
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/credentials*
+**/node_modules/
+prototype/results/
