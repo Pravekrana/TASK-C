@@ -1,0 +1,82 @@
+Task 3 V2
+Task 3: Forward Deployed Engineer Case Study
+Client B — Structural Steel
+
+Deadline: 48 hours from the time you receive this.
+
+Context
+You are the Forward Deployed Engineer on a new account. The client is a structural steel fabricator handling about 80,000 tonnes a year, with 10 to 15 projects running at any time.
+
+Our contact is an engineer in their Cost Control team. The nesting, engineering and yard teams were not on the calls. You have the notes from the first two calls. We have not proposed anything yet.
+
+The Client’s Problem, As They Put It
+“Honestly, we don’t have a clear idea how AI can be integrated into our company. We’ve listed some areas in operations where we think it could help: nesting, drawing revisions, warehouse and yard storage, the loading plan for trailers, equipment utilisation. We want your expertise on where to start, where else, and how to improve the process.
+
+If I have to pick one, it’s nesting. Our nesting is planned by hand. We don’t have the data to say how much steel is wasted, how much of that we could have prevented, or which material is sitting unused when it could have gone into a drawing on another project. Plate wastage runs at 20 to 25%, profiles at 5 to 10%, and about 7 to 10% overall.”
+
+What You Get
+•       discovery-call-notes.txt: the first two calls, in the client’s words.
+
+What You Deliver
+1. Case Study
+A case study (PDF or markdown, at most 6 pages plus any appendix). It is what you, as the FDE, would bring back to this client. Structure it however you like, but it must cover:
+
+•       Problem understanding. What the client actually needs, and where that differs from what they asked for. Who the stakeholders are and what each of them wants. The as-is process as you understand it.
+
+•       What you don't know yet. The questions you would ask on the next call, ranked. For each one, what you are assuming until you get an answer.
+
+•       Solution. The options you considered, the one you recommend first, and why it is the best fit for this client. What you would deliberately not build.
+
+•       Solution engineering. How it works end to end: inputs, the data you need and where it comes from, the model or logic, where a person signs off, and how it fits the client's existing systems, people and routine.
+
+•       Evaluation. How you and the client will know it works: baseline, metric, threshold, test protocol, and what result would make you stop.
+
+•       Build plan and timeline. Phases, milestones, and what depends on the client.
+
+•       Cost. Effort and team, running cost, the price and payment structure you would propose, and the value to the client. Show the arithmetic and state your assumptions.
+
+•       Risks.
+
+2. Note to Client Contact
+A one-page note to our client contact, written so they can forward it to their management. Non-technical. What you propose, what you need from them, what it costs and when they will see a result.
+
+3. Submission Form
+The submission form (submission-form.md). An unfilled form is an incomplete submission.
+
+Optional: Prototype
+A small prototype or notebook, if it proves a specific point in your case study. Synthetic data is fine. It is not required and is not graded on polish.
+
+Guidelines
+On AI Tools
+Use whatever you want. Tell us honestly in the form what you used and what you threw away. That answer only ever helps you.
+
+On Client Information
+These notes are confidential. Do not publish them or post them anywhere public.
+
+On the Brief Itself
+These are real discovery-call notes, and they are as messy as real ones are. There is no one to ask during the window. Where something is unclear, decide, write down what you decided and why. That is part of the task.
+
+Submission
+Submit through the link in your invitation before the window closes. Your work stays yours, and we will not use it for anything else.
+
+1d 23h left
+
+Files
+
+discovery-call-notes.txt
+Case study*
+No file chosen
+One-page client note*
+No file chosen
+In two sentences: what is the client's real problem, and how is it different from what they asked for?*
+Who are the people in this deal, and what does each of them need to hear from you?*
+The five questions you would ask on the next call, ranked.** For each one: why it matters, and what you assumed while you wait for the answer.*
+Which options did you consider, and why did you pick the one you did?** What did you rule out, and why?*
+How will the client know the pilot worked?** Metric, baseline, threshold, how many runs, who measures, and what result would make you stop.*
+What does this cost the client, and what does it cost us to deliver?** Show the arithmetic and name the pricing structure. What value does the client get, in their money?*
+Timeline.** What is the first result the client sees, and when? Which steps depend on the client rather than on us?*
+Where did you push back on the client, narrow their ask, or tell them not to do something?** **[can only raise your score]***
+What is most likely to go wrong with your plan, and what in these notes did you not trust?** **[can only raise your score]***
+What did you use AI for?** Which tools, where they helped, where they misled you, and what you threw away.*
+Github Repo URL
+Submit

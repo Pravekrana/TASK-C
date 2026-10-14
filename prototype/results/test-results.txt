@@ -1,0 +1,22 @@
+test_demo_accounting_and_tradeoff (test_metrics.MetricsTests.test_demo_accounting_and_tradeoff) ... ok
+test_incomplete_plan_not_comparable (test_metrics.MetricsTests.test_incomplete_plan_not_comparable) ... ok
+test_reuse_threshold_boundary (test_metrics.MetricsTests.test_reuse_threshold_boundary) ... ok
+test_tampered_mass_balance_rejected (test_metrics.MetricsTests.test_tampered_mass_balance_rejected) ... ok
+test_both_strategies_consider_offcuts_first (test_optimizer.OptimizerTests.test_both_strategies_consider_offcuts_first) ... ok
+test_determinism (test_optimizer.OptimizerTests.test_determinism) ... ok
+test_kerf_boundary (test_optimizer.OptimizerTests.test_kerf_boundary) ... ok
+test_negative_kerf (test_optimizer.OptimizerTests.test_negative_kerf) ... ok
+test_project_grade_section_blocked (test_optimizer.OptimizerTests.test_project_grade_section_blocked) ... ok
+test_quantity_exhausts_inventory (test_optimizer.OptimizerTests.test_quantity_exhausts_inventory) ... ok
+test_small_exhaustive_conservation (test_optimizer.OptimizerTests.test_small_exhaustive_conservation) ... ok
+test_duplicate_demand (test_validation.ValidationTests.test_duplicate_demand) ... ok
+test_duplicate_physical_identity (test_validation.ValidationTests.test_duplicate_physical_identity) ... ok
+test_inconsistent_density (test_validation.ValidationTests.test_inconsistent_density) ... ok
+test_invalid_quantities_and_lengths (test_validation.ValidationTests.test_invalid_quantities_and_lengths) ... ok
+test_missing_project (test_validation.ValidationTests.test_missing_project) ... ok
+test_nonfinite_mass (test_validation.ValidationTests.test_nonfinite_mass) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.003s
+
+OK

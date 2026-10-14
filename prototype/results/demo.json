@@ -1,0 +1,465 @@
+{
+  "algorithm_version": "1.0",
+  "input_sha256": {
+    "synthetic_demand.csv": "9955b515f8098312f76960f2be4b813e2be0032d55ec0cb12dd636a6faaf96e9",
+    "synthetic_offcuts.csv": "3246547f4c537f0a390a6cee11d4b9154855c56da88b21af5538b47b2de46e4c",
+    "synthetic_stock.csv": "21f3247eb098df2be5d968bb37e97501e90a7a085b992224e10bcfc32864c4b6"
+  },
+  "kerf_mm": 3,
+  "min_reusable_mm": 500,
+  "plans": {
+    "assisted": {
+      "metrics": {
+        "existing_offcut_input_kg": 60.0,
+        "good_parts_kg": 119.80000000000001,
+        "input_stock_kg": 120.0,
+        "kerf_kg": 0.12,
+        "recoverable_remnant_kg": 0.0,
+        "scrap_rate": 0.0016666666666666668,
+        "unrecoverable_scrap_kg": 0.2,
+        "used_stock_count": 2,
+        "virgin_issued_kg": 60.0,
+        "virgin_kg_per_good_kg": 0.5008347245409015
+      },
+      "plan": {
+        "allocations": [
+          {
+            "kerf_mm": 3,
+            "length_mm": 3990,
+            "part": "D02",
+            "piece": 1,
+            "stock": "O01"
+          },
+          {
+            "kerf_mm": 3,
+            "length_mm": 3990,
+            "part": "D02",
+            "piece": 2,
+            "stock": "S01"
+          },
+          {
+            "kerf_mm": 3,
+            "length_mm": 2000,
+            "part": "D01",
+            "piece": 1,
+            "stock": "O01"
+          },
+          {
+            "kerf_mm": 3,
+            "length_mm": 2000,
+            "part": "D01",
+            "piece": 2,
+            "stock": "S01"
+          }
+        ],
+        "audit": [
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 1,
+            "reasons": [
+              "PROJECT_OWNERSHIP"
+            ],
+            "stock": "S03"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 1,
+            "reasons": [
+              "GRADE"
+            ],
+            "stock": "S04"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 1,
+            "reasons": [
+              "SECTION"
+            ],
+            "stock": "S05"
+          },
+          {
+            "event": "SELECTED",
+            "kerf_mm": 3,
+            "length_mm": 3990,
+            "part": "D02",
+            "piece": 1,
+            "remaining_mm": 2007,
+            "stock": "O01"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 2,
+            "reasons": [
+              "PROJECT_OWNERSHIP"
+            ],
+            "stock": "S03"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 2,
+            "reasons": [
+              "GRADE"
+            ],
+            "stock": "S04"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 2,
+            "reasons": [
+              "SECTION"
+            ],
+            "stock": "S05"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 2,
+            "reasons": [
+              "LENGTH_PLUS_KERF"
+            ],
+            "stock": "O01"
+          },
+          {
+            "event": "SELECTED",
+            "kerf_mm": 3,
+            "length_mm": 3990,
+            "part": "D02",
+            "piece": 2,
+            "remaining_mm": 2007,
+            "stock": "S01"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D01",
+            "piece": 1,
+            "reasons": [
+              "PROJECT_OWNERSHIP"
+            ],
+            "stock": "S03"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D01",
+            "piece": 1,
+            "reasons": [
+              "GRADE"
+            ],
+            "stock": "S04"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D01",
+            "piece": 1,
+            "reasons": [
+              "SECTION"
+            ],
+            "stock": "S05"
+          },
+          {
+            "event": "SELECTED",
+            "kerf_mm": 3,
+            "length_mm": 2000,
+            "part": "D01",
+            "piece": 1,
+            "remaining_mm": 4,
+            "stock": "O01"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D01",
+            "piece": 2,
+            "reasons": [
+              "PROJECT_OWNERSHIP"
+            ],
+            "stock": "S03"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D01",
+            "piece": 2,
+            "reasons": [
+              "GRADE"
+            ],
+            "stock": "S04"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D01",
+            "piece": 2,
+            "reasons": [
+              "SECTION"
+            ],
+            "stock": "S05"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D01",
+            "piece": 2,
+            "reasons": [
+              "LENGTH_PLUS_KERF"
+            ],
+            "stock": "O01"
+          },
+          {
+            "event": "SELECTED",
+            "kerf_mm": 3,
+            "length_mm": 2000,
+            "part": "D01",
+            "piece": 2,
+            "remaining_mm": 4,
+            "stock": "S01"
+          }
+        ],
+        "complete": true,
+        "rejected": [],
+        "remaining_mm": {
+          "O01": 4,
+          "S01": 4,
+          "S02": 6000,
+          "S03": 6000,
+          "S04": 6000,
+          "S05": 6000
+        },
+        "strategy": "assisted"
+      }
+    },
+    "baseline": {
+      "metrics": {
+        "existing_offcut_input_kg": 60.0,
+        "good_parts_kg": 119.80000000000001,
+        "input_stock_kg": 180.0,
+        "kerf_kg": 0.12,
+        "recoverable_remnant_kg": 60.080000000000005,
+        "scrap_rate": 0.0006666666666666666,
+        "unrecoverable_scrap_kg": 0.12,
+        "used_stock_count": 3,
+        "virgin_issued_kg": 120.0,
+        "virgin_kg_per_good_kg": 1.001669449081803
+      },
+      "plan": {
+        "allocations": [
+          {
+            "kerf_mm": 3,
+            "length_mm": 2000,
+            "part": "D01",
+            "piece": 1,
+            "stock": "O01"
+          },
+          {
+            "kerf_mm": 3,
+            "length_mm": 2000,
+            "part": "D01",
+            "piece": 2,
+            "stock": "O01"
+          },
+          {
+            "kerf_mm": 3,
+            "length_mm": 3990,
+            "part": "D02",
+            "piece": 1,
+            "stock": "S01"
+          },
+          {
+            "kerf_mm": 3,
+            "length_mm": 3990,
+            "part": "D02",
+            "piece": 2,
+            "stock": "S02"
+          }
+        ],
+        "audit": [
+          {
+            "event": "INELIGIBLE",
+            "part": "D01",
+            "piece": 1,
+            "reasons": [
+              "PROJECT_OWNERSHIP"
+            ],
+            "stock": "S03"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D01",
+            "piece": 1,
+            "reasons": [
+              "GRADE"
+            ],
+            "stock": "S04"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D01",
+            "piece": 1,
+            "reasons": [
+              "SECTION"
+            ],
+            "stock": "S05"
+          },
+          {
+            "event": "SELECTED",
+            "kerf_mm": 3,
+            "length_mm": 2000,
+            "part": "D01",
+            "piece": 1,
+            "remaining_mm": 3997,
+            "stock": "O01"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D01",
+            "piece": 2,
+            "reasons": [
+              "PROJECT_OWNERSHIP"
+            ],
+            "stock": "S03"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D01",
+            "piece": 2,
+            "reasons": [
+              "GRADE"
+            ],
+            "stock": "S04"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D01",
+            "piece": 2,
+            "reasons": [
+              "SECTION"
+            ],
+            "stock": "S05"
+          },
+          {
+            "event": "SELECTED",
+            "kerf_mm": 3,
+            "length_mm": 2000,
+            "part": "D01",
+            "piece": 2,
+            "remaining_mm": 1994,
+            "stock": "O01"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 1,
+            "reasons": [
+              "PROJECT_OWNERSHIP"
+            ],
+            "stock": "S03"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 1,
+            "reasons": [
+              "GRADE"
+            ],
+            "stock": "S04"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 1,
+            "reasons": [
+              "SECTION"
+            ],
+            "stock": "S05"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 1,
+            "reasons": [
+              "LENGTH_PLUS_KERF"
+            ],
+            "stock": "O01"
+          },
+          {
+            "event": "SELECTED",
+            "kerf_mm": 3,
+            "length_mm": 3990,
+            "part": "D02",
+            "piece": 1,
+            "remaining_mm": 2007,
+            "stock": "S01"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 2,
+            "reasons": [
+              "LENGTH_PLUS_KERF"
+            ],
+            "stock": "S01"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 2,
+            "reasons": [
+              "PROJECT_OWNERSHIP"
+            ],
+            "stock": "S03"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 2,
+            "reasons": [
+              "GRADE"
+            ],
+            "stock": "S04"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 2,
+            "reasons": [
+              "SECTION"
+            ],
+            "stock": "S05"
+          },
+          {
+            "event": "INELIGIBLE",
+            "part": "D02",
+            "piece": 2,
+            "reasons": [
+              "LENGTH_PLUS_KERF"
+            ],
+            "stock": "O01"
+          },
+          {
+            "event": "SELECTED",
+            "kerf_mm": 3,
+            "length_mm": 3990,
+            "part": "D02",
+            "piece": 2,
+            "remaining_mm": 2007,
+            "stock": "S02"
+          }
+        ],
+        "complete": true,
+        "rejected": [],
+        "remaining_mm": {
+          "O01": 1994,
+          "S01": 2007,
+          "S02": 2007,
+          "S03": 6000,
+          "S04": 6000,
+          "S05": 6000
+        },
+        "strategy": "baseline"
+      }
+    }
+  },
+  "schema_version": 1,
+  "synthetic": true
+}

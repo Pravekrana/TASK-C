@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "required_files": 35,
+  "source_hashes_unchanged": true,
+  "pdf_checks": {
+    "case-study": {
+      "pages": 6,
+      "text_bounds": [
+        {
+          "page": 1,
+          "left": 44.0,
+          "right": 551.2755999999999,
+          "top": 44.93299999999999,
+          "bottom": 816.4423
+        },
+        {
+          "page": 2,
+          "left": 44.0,
+          "right": 551.2755999999999,
+          "top": 44.93299999999999,
+          "bottom": 816.4423
+        },
+        {
+          "page": 3,
+          "left": 44.0,
+          "right": 552.0,
+          "top": 44.93299999999999,
+          "bottom": 816.4423
+        },
+        {
+          "page": 4,
+          "left": 44.0,
+          "right": 551.2755999999999,
+          "top": 44.93299999999999,
+          "bottom": 816.4423
+        },
+        {
+          "page": 5,
+          "left": 44.0,
+          "right": 551.2755999999999,
+          "top": 44.93299999999999,
+          "bottom": 816.4423
+        },
+        {
+          "page": 6,
+          "left": 44.0,
+          "right": 551.2755999999999,
+          "top": 44.93299999999999,
+          "bottom": 816.4423
+        }
+      ]
+    },
+    "client-note": {
+      "pages": 1,
+      "text_bounds": [
+        {
+          "page": 1,
+          "left": 44.0,
+          "right": 551.2755999999999,
+          "top": 44.93299999999999,
+          "bottom": 816.4423
+        }
+      ]
+    }
+  },
+  "form_fields": 11,
+  "form_copy_consistent": true,
+  "financial_arithmetic": "PASS",
+  "pdf_text_retention": "PASS"
+}

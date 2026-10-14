@@ -1,0 +1,143 @@
+{
+  "currency": "USD, hypothetical only",
+  "labour": 26400,
+  "infrastructure": 600,
+  "contingency": 4050.0,
+  "internal_delivery_cost": 31050.0,
+  "client_fee": 45000,
+  "delivery_contribution": 13950.0,
+  "delivery_margin": 0.31,
+  "stage01_internal": 10350.0,
+  "stage2_internal": 20700.0,
+  "annual_support": 6000,
+  "provider_annual_support_cost": 3600,
+  "first_year_vendor_spend": 51000,
+  "base_total_outlay": 61000,
+  "base_kickoff_payback_months": 5.134615384615385,
+  "recurring_break_even_pp": 0.08,
+  "kickoff_break_even_pp": 0.34478260869565214,
+  "scenarios": {
+    "downside": {
+      "annual_input_t": 50000,
+      "eligible_share": 0.3,
+      "eligible_t": 15000.0,
+      "improvement_fraction": 0.002,
+      "improvement_pp": 0.2,
+      "net_value_per_t": 350,
+      "recovered_equivalent_t": 30.0,
+      "gross_value": 10500.0,
+      "friction": 15000,
+      "annual_net_after_recurring": -10500.0,
+      "full_operating_year_net": -55500.0,
+      "kickoff_year_net": -56711.53846153846,
+      "operating_payback_months": null,
+      "first_year_break_even_pp": 1.2571428571428571
+    },
+    "base": {
+      "annual_input_t": 80000,
+      "eligible_share": 0.5,
+      "eligible_t": 40000.0,
+      "improvement_fraction": 0.008,
+      "improvement_pp": 0.8,
+      "net_value_per_t": 500,
+      "recovered_equivalent_t": 320.0,
+      "gross_value": 160000.0,
+      "friction": 10000,
+      "annual_net_after_recurring": 144000.0,
+      "full_operating_year_net": 99000.0,
+      "kickoff_year_net": 80538.46153846153,
+      "operating_payback_months": 3.75,
+      "first_year_break_even_pp": 0.305
+    },
+    "upside": {
+      "annual_input_t": 80000,
+      "eligible_share": 0.7,
+      "eligible_t": 56000.0,
+      "improvement_fraction": 0.012,
+      "improvement_pp": 1.2,
+      "net_value_per_t": 600,
+      "recovered_equivalent_t": 672.0,
+      "gross_value": 403200.0,
+      "friction": 15000,
+      "annual_net_after_recurring": 382200.0,
+      "full_operating_year_net": 337200.0,
+      "kickoff_year_net": 290676.92307692306,
+      "operating_payback_months": 1.41287284144427,
+      "first_year_break_even_pp": 0.19642857142857145
+    }
+  },
+  "sensitivity": [
+    {
+      "eligible_t": 15000,
+      "improvement_pp": 0.2,
+      "gross": 15000.0,
+      "net_full_year": -46000.0
+    },
+    {
+      "eligible_t": 15000,
+      "improvement_pp": 0.5,
+      "gross": 37500.0,
+      "net_full_year": -23500.0
+    },
+    {
+      "eligible_t": 15000,
+      "improvement_pp": 0.8,
+      "gross": 60000.0,
+      "net_full_year": -1000.0
+    },
+    {
+      "eligible_t": 15000,
+      "improvement_pp": 1.2,
+      "gross": 90000.0,
+      "net_full_year": 29000.0
+    },
+    {
+      "eligible_t": 40000,
+      "improvement_pp": 0.2,
+      "gross": 40000.0,
+      "net_full_year": -21000.0
+    },
+    {
+      "eligible_t": 40000,
+      "improvement_pp": 0.5,
+      "gross": 100000.0,
+      "net_full_year": 39000.0
+    },
+    {
+      "eligible_t": 40000,
+      "improvement_pp": 0.8,
+      "gross": 160000.0,
+      "net_full_year": 99000.0
+    },
+    {
+      "eligible_t": 40000,
+      "improvement_pp": 1.2,
+      "gross": 240000.0,
+      "net_full_year": 179000.0
+    },
+    {
+      "eligible_t": 56000,
+      "improvement_pp": 0.2,
+      "gross": 56000.0,
+      "net_full_year": -5000.0
+    },
+    {
+      "eligible_t": 56000,
+      "improvement_pp": 0.5,
+      "gross": 140000.0,
+      "net_full_year": 79000.0
+    },
+    {
+      "eligible_t": 56000,
+      "improvement_pp": 0.8,
+      "gross": 224000.0,
+      "net_full_year": 163000.0
+    },
+    {
+      "eligible_t": 56000,
+      "improvement_pp": 1.2,
+      "gross": 336000.0,
+      "net_full_year": 275000.0
+    }
+  ]
+}
